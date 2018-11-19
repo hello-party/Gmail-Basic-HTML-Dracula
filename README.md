@@ -12,6 +12,10 @@ I will, however, post some proper CSS files once its done.
 Make sure you set HTML View as your default! 
 
 */
+html {
+    border: 0px;
+}
+
 * {
     background-color: #282a36;
     color: #f8f8f8;
@@ -24,11 +28,13 @@ td {
 
 
 
+
 /* Gmail Logo*/
 body > table:nth-child(15) > tbody > tr:nth-child(1) > td:nth-child(1) > h1 > a > img {
     filter: invert(100%);
     background-color: #d7d5c9;
 }
+
 
 
 /* Compose Button */
@@ -43,11 +49,13 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.m > tbody > tr
 }
 
 
+
 /* Header Search */
 #sbq {
     border: 1px solid #44475a!important;
     margin: 0 10 0 5;
 }
+
 
 
 
@@ -60,11 +68,13 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.m > tbody > tr
 
 
 
+
 /* Top Buttons */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(2) > form > table:nth-child(4) > tbody > tr > td {
     padding: 0px 0px 15px 0px;
     background-color: #282a36;
 }
+
 
 
 
@@ -76,10 +86,12 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) >
 }
 
 
+
 /* Unread Senders Colored */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(2) > form > table.th > tbody > tr > td:nth-child(2) > b {
     color: #FF5555;
 }
+
 
 
 /* Bottom Buttons */
@@ -90,10 +102,12 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) >
 
 
 
+
 /* Bottom Buttons */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(2) > form > table.th > tbody > tr {
     background-color: #f5f5f5;
 }
+
 
 
 /* Table Border */
@@ -101,6 +115,7 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) >
 .th th {
     border-bottom: 0.5px solid #44475a
 }
+
 
 
 
@@ -118,6 +133,7 @@ a.cleaned:hover {
     color: #ffb86c;
     text-decoration: none!important;
 }
+
 
 
 /* Footer Span */
@@ -139,6 +155,7 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > t
 
 
 
+
 /* Preview Date */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(2) > form > table.th > tbody > tr > td:nth-child(4) {
     font-size: 55%;
@@ -149,10 +166,12 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) >
 
 
 
+
 /* Preview Body */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(2) > form > table.th > tbody > tr > td:nth-child(3) > a > span > font {
     color: #6272a4;
 }
+
 
 
 
@@ -163,6 +182,7 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) >
     text-decoration: underline;
     padding: 0 0 20px 0;
 }
+
 
 
 
@@ -187,6 +207,7 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.l > tbody > tr
 
 
 
+
 /* Buttons */
 select,
 input[type="submit"] {
@@ -199,6 +220,7 @@ input[type="submit"] {
 select {
     border: 4px solid #44475a;
 }
+
 
 
 
@@ -220,10 +242,12 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > t
 }
 
 
+
 /* Hide Mobile Ad */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > tr:nth-child(1) > td {
     display: none;
 }
+
 
 
 /* Preferences */
@@ -235,6 +259,7 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > t
 }
 
 
+
 /* Tabs */
 .nav ul li.on {
     background-color: #e5e5e5
@@ -242,6 +267,7 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > t
 .nav ul li {
     padding: 4 10px 4 8px;
 }
+
 
 
 /* Messages */
@@ -270,4 +296,26 @@ input {
     border: 1px solid #44475a;
 }
 
+body > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td > span:nth-child(1) {
+    background-color: #282a36!important;
+}
+
+
+/* Account Activity Footer Text */
+body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > tr:nth-child(2) > td > div:nth-child(2) > span {
+    background: #282a35!important;
+    padding: 2px;
+    color: #FF5555;
+}
+
+
+/* Account Activity */
+.acts {
+    background-color: #282a36;
+    color: #f8f8f8;
+}
+
+.lk {
+    color: #ff5555!important
+}
 ```
