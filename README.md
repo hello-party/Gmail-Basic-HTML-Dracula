@@ -20,10 +20,23 @@ td {
 }
 
 
+
 /* Gmail Logo*/
 body > table:nth-child(15) > tbody > tr:nth-child(1) > td:nth-child(1) > h1 > a > img {
     filter: invert(100%);
     background-color: #d7d5c9;
+}
+
+
+/* Compose Button */
+body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.m > tbody > tr:nth-child(1) > td > b a {
+    background-color: #FF5555;
+    padding: 7px 10px 5px 10px;
+    position: relative;
+    top: 0px;
+    font-size: 0.8em;
+    line-height: 2em;
+    font-weight: 400;
 }
 
 
@@ -34,12 +47,14 @@ body > table:nth-child(15) > tbody > tr:nth-child(1) > td:nth-child(1) > h1 > a 
 }
 
 
+
 /* Top Border */
 .gbh,
 .gbd {
     border-top: 1px solid #44475a;
     font-size: 1px;
 }
+
 
 
 /* Top Buttons */
@@ -50,10 +65,17 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) >
 
 
 
+
 /* Inbox */
 body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.m > tbody > tr:nth-child(3) > td,
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td {
     background-color: #282a36;
+}
+
+
+/* Unread Senders Colored */
+body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(2) > form > table.th > tbody > tr > td:nth-child(2) > b {
+    color: #FF5555;
 }
 
 
@@ -64,16 +86,19 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) >
 }
 
 
+
 /* Bottom Buttons */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(2) > form > table.th > tbody > tr {
     background-color: #f5f5f5;
 }
+
 
 /* Table Border */
 .th td,
 .th th {
     border-bottom: 0.5px solid #44475a
 }
+
 
 
 /* Top Links and Label Links */
@@ -90,6 +115,7 @@ a.cleaned:hover {
     color: #ffb86c;
     text-decoration: none!important;
 }
+
 
 /* Footer Span */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > tr:nth-child(2) > td > span {
@@ -109,6 +135,7 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > t
 
 
 
+
 /* Preview Date */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(2) > form > table.th > tbody > tr > td:nth-child(4) {
     font-size: 55%;
@@ -118,10 +145,12 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) >
 }
 
 
+
 /* Preview Body */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(2) > form > table.th > tbody > tr > td:nth-child(3) > a > span > font {
     color: #6272a4;
 }
+
 
 
 /* Labels Header */
@@ -131,6 +160,7 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) >
     text-decoration: underline;
     padding: 0 0 20px 0;
 }
+
 
 
 /* Labels */
@@ -153,6 +183,7 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.l > tbody > tr
 }
 
 
+
 /* Buttons */
 select,
 input[type="submit"] {
@@ -167,6 +198,7 @@ select {
 }
 
 
+
 /* Hide the Star IMG and Replace it */
 body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.m > tbody > tr:nth-child(4) > td > a > img {
     display: none;
@@ -174,7 +206,7 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.m > tbody > tr
 
 body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.m > tbody > tr:nth-child(4) > td > a:after {
     content: "⭑";
-    color: #ff5555;
+    color: #f1fa8c;
     position: relative;
     top: -1px
 }
@@ -182,6 +214,12 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.m > tbody > tr
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > tr:nth-child(2) > td {
     font-size: 0.8em;
     line-height: 2em;
+}
+
+
+/* Hide Mobile Ad */
+body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > tr:nth-child(1) > td {
+    display: none;
 }
 
 
@@ -200,4 +238,33 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > t
 }
 .nav ul li {
     padding: 4 10px 4 8px;
-}```
+}
+
+
+/* Messages */
+.r {
+    padding: 20px 0 20 0;
+}
+
+.r a {
+    padding: 5px 10px!important;
+    background: #44475a;
+    color: #f8f8f8;
+    font-size: 1.2em;
+}
+
+.msg {
+    padding: 20px 0 20px 0;
+    border-top: 1px solid #44475a;
+    border-bottom: 1px solid #44475a
+}
+
+.qr {
+    padding: 20px 0 0 0;
+}
+textarea,
+input {
+    border: 1px solid #44475a;
+}
+
+```
