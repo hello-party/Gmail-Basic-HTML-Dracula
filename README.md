@@ -26,16 +26,11 @@ td {
     font-size: 15px;
 }
 
-
-
-
 /* Gmail Logo*/
 body > table:nth-child(15) > tbody > tr:nth-child(1) > td:nth-child(1) > h1 > a > img {
     filter: invert(100%);
     background-color: #d7d5c9;
 }
-
-
 
 /* Compose Button */
 body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.m > tbody > tr:nth-child(1) > td > b a {
@@ -48,16 +43,11 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.m > tbody > tr
     font-weight: 400;
 }
 
-
-
 /* Header Search */
 #sbq {
     border: 1px solid #44475a!important;
     margin: 0 10 0 5;
 }
-
-
-
 
 /* Top Border */
 .gbh,
@@ -66,18 +56,11 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.m > tbody > tr
     font-size: 1px;
 }
 
-
-
-
 /* Top Buttons */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(2) > form > table:nth-child(4) > tbody > tr > td {
     padding: 0px 0px 15px 0px;
     background-color: #282a36;
 }
-
-
-
-
 
 /* Inbox */
 body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.m > tbody > tr:nth-child(3) > td,
@@ -85,14 +68,10 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) >
     background-color: #282a36;
 }
 
-
-
 /* Unread Senders Colored */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(2) > form > table.th > tbody > tr > td:nth-child(2) > b {
     color: #FF5555;
 }
-
-
 
 /* Bottom Buttons */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(2) > form > table:nth-child(6) > tbody > tr > td {
@@ -100,24 +79,16 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) >
     padding: 14px 0 0 0;
 }
 
-
-
-
 /* Bottom Buttons */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(2) > form > table.th > tbody > tr {
     background-color: #f5f5f5;
 }
-
-
 
 /* Table Border */
 .th td,
 .th th {
     border-bottom: 0.5px solid #44475a
 }
-
-
-
 
 /* Top Links and Label Links */
 a:link,
@@ -133,8 +104,6 @@ a.cleaned:hover {
     color: #ffb86c;
     text-decoration: none!important;
 }
-
-
 
 /* Footer Span */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > tr:nth-child(2) > td > span {
@@ -152,10 +121,6 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > t
     padding: 6px 2px 0 2!important;
 }
 
-
-
-
-
 /* Preview Date */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(2) > form > table.th > tbody > tr > td:nth-child(4) {
     font-size: 55%;
@@ -164,16 +129,10 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) >
     font-weight: 700
 }
 
-
-
-
 /* Preview Body */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) > tbody > tr > td:nth-child(2) > form > table.th > tbody > tr > td:nth-child(3) > a > span > font {
     color: #6272a4;
 }
-
-
-
 
 /* Labels Header */
 .lb h2 {
@@ -182,9 +141,6 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table:nth-child(1) >
     text-decoration: underline;
     padding: 0 0 20px 0;
 }
-
-
-
 
 /* Labels */
 body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.l > tbody > tr > td > a {
@@ -205,9 +161,6 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.l > tbody > tr
     font-size: 0.8em
 }
 
-
-
-
 /* Buttons */
 select,
 input[type="submit"] {
@@ -217,12 +170,10 @@ input[type="submit"] {
     font-size: 0.8em;
     padding: 5px 10px;
 }
+
 select {
     border: 4px solid #44475a;
 }
-
-
-
 
 /* Hide the Star IMG and Replace it */
 body > table:nth-child(16) > tbody > tr > td:nth-child(1) > table.m > tbody > tr:nth-child(4) > td > a > img {
@@ -241,14 +192,10 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > t
     line-height: 2em;
 }
 
-
-
 /* Hide Mobile Ad */
 body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > tr:nth-child(1) > td {
     display: none;
 }
-
-
 
 /* Preferences */
 
@@ -258,17 +205,14 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > t
     border-width: 0.5px
 }
 
-
-
 /* Tabs */
 .nav ul li.on {
     background-color: #e5e5e5
 }
+
 .nav ul li {
     padding: 4 10px 4 8px;
 }
-
-
 
 /* Messages */
 .r {
@@ -307,7 +251,6 @@ body > table:nth-child(16) > tbody > tr > td:nth-child(2) > table.ft > tbody > t
     padding: 2px;
     color: #FF5555;
 }
-
 
 /* Account Activity */
 .acts {
