@@ -1,6 +1,9 @@
 # Gmail Basic HTML Dracula
 As stated, this is hacky. I don't expect or really want anybody to use or rely on this. I will not be maintaining this on a regular basis.
 
+![preview](https://github.com/hello-party/Gmail-Basic-HTML-Dracula/blob/master/preview.png?raw=true)
+
+
 I will, however, post some proper CSS files once its done. 
 
 ```
